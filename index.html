@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie-edge">
+
+        <!--Links for Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules\bootstrap-social\bootstrap-social.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Aryan Karn</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <div class="container">
+                <a class="navbar-brand mr-auto" href="#"><img src="/favicon-32x32.png" width="30" height="30" class="d-inline-block align-top" alt="">    Aryan Karn</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav item"><a class="nav-link" href="#about"><span class="fa fa-user"></span> About</a></li>
+                        <li class="nav item"><a class="nav-link" href="#education"><span class="fa fa-university"></span> Education</a></li>
+                        <li class="nav item"><a class="nav-link" href="#skills"><span class="fa fa-star"></span> Skills</a></li>
+                        <li class="nav item"><a class="nav-link" href="#projects"><span class="fa fa-puzzle-piece"></span> Projects</a></li>
+                        <li class="nav item"><a class="nav-link" href="#achievements"><span class="fa fa-trophy"></span> Achievements</a></li>
+                        <li class="nav item"><a class="nav-link" href="#footer"><span class="fa fa-address-book fa-lg"></span> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Modals for showing Project Info -->
+        <!-- For adding more projects, copy paste the below div and change the contents -->
+
+        <!-- For fBlogger -->
+        <div id="fBloggerInfo" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="content">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #6b82b0; color: floralwhite;">
+                        <h4 class="modal-title">More Info about fBlogger: </h4>
+                        <button type="button" style="color: floralwhite;" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><b>Node.js Backend</b></li>
+                            <li><b>Bootstrap Frontend</b></li>
+                            <li><b>User Authentication via Passport</b></li>
+                            <li><b>Implemented Admin Panel</b></li>
+                            <li><b>Data Persistence via MongoDB</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- For CoMeds -->
+        <div id="CoMedsInfo" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="content">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #6b82b0; color: floralwhite;">
+                        <h4 class="modal-title">More Info about CoMeds: </h4>
+                        <button type="button" style="color: floralwhite;" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><b>Node.js Backend</b></li>
+                            <li><b>Bootstrap Frontend</b></li>
+                            <li><b>User Authentication via Passport</b></li>
+                            <li><b>Implemented Admin Panel</b></li>
+                            <li><b>Data Persistence via MongoDB</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- For tapFun -->
+        <div id="tapFunInfo" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="content">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #6b82b0; color: floralwhite;">
+                        <h4 class="modal-title">More Info about tapFun: </h4>
+                        <button type="button" style="color: floralwhite;" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><b>Made with HTML5, CSS3 and Javascript.</b></li>
+                            <li><b>Implemented audio library using howler.js</b></li> 
+                            <li><b>Used paper.js for adding vector graphics.</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-8 order-last order-sm-first">
+                        <h2>Hi, I'm Aryan Karn 👋</h2><br>
+                        <p><h4>Full Stack Developer 🚀 | | <br>
+                           Computer Science and Engineering Sophomore @ IIT (ISM) Dhanbad 🎓<br>
+                        </p>
+                        <p>
+                            Also a Competitive Programmer and <br>
+                            an Open Source Enthusiast ✌</h4>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-4 order-first order-sm-last">
+                        <img class="img-fluid rounded-circle" src="imgs/self.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row" id="about">
+                <div class="col-1">
+                    <div id="verticalLine"></div>
+                </div>
+                <div class="col-10">
+                    <div class="card" id="card">
+                        <div class="card-body">
+                            <h4 class="card-title">About</h4>
+                            <hr>
+                            <p class="card-text">A sophomore and Full Stack Web Developer , also skilled in C++,<br>
+                                 jQuery, HTML, JavaScript, and Github. Strong operations professional with a Batchelor of Technology <br>
+                                 focused in Computer Science and Engineering from Indian Institute of Technology (Indian School of Mines),<br>
+                                  Dhanbad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="education">
+                <div class="row">
+                    <div class="col-12" id="eduTitle">
+                        <h4>Education</h5>
+                        <hr color="floralwhite" style="height: 2px; border-radius: 5px;">
+                    </div>
+                </div>
+                <div>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#previous" role="tab" data-toggle="tab">Previous</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#current" role="tab" data-toggle="tab">Current</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade" id="previous">
+                            <div class="media">
+                                <img class="d-flex mr-3 img-thumbnail align-self-center" src="imgs/davLogo.jpg" alt="DAV">
+                                <div class="media-body">
+                                    <h5>High School (2015-2019)</h5>
+                                    <a href="http://davbsebpatna.org/" target="_blank"><h4>D.A.V. Public School, <br>
+                                    B.S.E.B. Colony,New Punaichak, <br>
+                                    Patna-800023
+                                    </h4></a>
+                                </div>
+                            </div>    
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade show active" id="current">
+                            <div class="media">
+                                <img class="d-flex mr-3 img-thumbnail align-self-center" src="imgs/ismLogo.png" alt="ISM">
+                                <div class="media-body">
+                                    <h3>Batchelor of Technology in<br> Computer Science and Engineering<br> (2019-2023)</h3>
+                                    <a href="https://www.iitism.ac.in/" target="_blank"><h4>Indian Institute of Technology(Indian School of Mines)<br> Dhanbad-826004</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="grades">
+                    <div class="col-12">
+                        <h4>Academic Qualification</h4>
+                        <hr width="38%" align="left" style=" box-shadow: 0 0 10px 1px #6b82b0;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <h3 style="text-align: center;">Previous Record</h3>
+                        <hr style="width: 45%;" color="white">
+                        <div class="table-responsive">
+                            <table class="table table-dark" id="schoolGrades">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <td><b>Exam Passed</b></td>
+                                        <td><b>Board</b></td>
+                                        <td><b>Passing Year</b></td>
+                                        <td><b>Grade</b></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>X</td>
+                                        <td>CBSE</td>
+                                        <td>2017</td>
+                                        <td>10 CGPA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>XII</td>
+                                        <td>CBSE</td>
+                                        <td>2019</td>
+                                        <td>95.2 %</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <h3 style="text-align: center;">Current Record(GPA)</h3>
+                        <hr style="width: 45%;" color="white">
+                        <div class="table-responsive">
+                            <table class="table table-dark" id="clgGrades" data-toggle="tooltip" data-html="true"
+                            title="OGPA : 9.24"  data-placement="bottom">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <td>Sem 1</td>
+                                        <td>Sem 2</td>
+                                        <td>Sem 3</td>
+                                        <td>Sem 4</td>
+                                        <td>Sem 5</td>
+                                        <td>Sem 6</td>
+                                        <td>Sem 7</td>
+                                        <td>Sem 8</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>9.51</td>
+                                        <td>9.55</td>
+                                        <td>8.35</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                    </tr>
+                                </tbody>
+                            </table>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row" id="skills">
+                <div class="col-12">
+                    <h4>Skills</h4>
+                    <hr color="floralwhite" style="height: 2px; border-radius: 5px;">
+                </div>
+            </div>
+            <div class="skills">
+                <div class="inner">
+                    <h5>Languages</h5>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/c++Logo.png" class="card-img-top img-fluid" alt="cpplogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">C++</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 30%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/jsLogo.png" class="card-img-top img-fluid" alt="jslogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Javascript</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 60%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/cLogo.png" class="card-img-top img-fluid" alt="cLogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">C</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="inner">
+                    <h5>Databases</h5>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/mongodbLogo.png" class="card-img-top img-fluid" alt="mongodblogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">MongoDB</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="inner">
+                    <h5>Web Development</h5>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/nodejsLogo.png" class="card-img-top img-fluid" alt="nodelogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Node</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 70%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/jqueryLogo.png" class="card-img-top img-fluid" alt="jquerylogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">JQuery</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-secondary" role="progressbar" style="width: 80%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/htmlLogo.png" class="card-img-top img-fluid" alt="htmllogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">HTML5</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 95%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/cssLogo.png" class="card-img-top img-fluid" alt="csslogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">CSS3</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 80%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/sassLogo.png" class="card-img-top img-fluid" alt="sasslogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">SASS</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 40%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/bootstrapLogo.png" class="card-img-top img-fluid" alt="bootstraplogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Bootstrap</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 90%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>    
+            <div class="skills">
+                <div class="inner">
+                    <h5>Others</h5>
+                <hr>
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/githubLogo.png" class="card-img-top img-fluid" alt="githublogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Github</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 90%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card">
+                            <img src="imgs/gitLogo.png" class="card-img-top img-fluid" alt="gitlogo">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Git</h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 60%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row" id="projects">
+                <div class="col-12">
+                    <h4>Projects</h4>
+                <hr color="floralwhite" style="height: 2px; border-radius: 5px;">
+            </div>
+            </div>
+            <div class="project-box">
+                <div class="row">
+                    <!-- Copy the below div for another project and change the contents and data-target = projectName and for modal make another modal at the top with id = projectName -->
+                    <!-- Project 1 -->
+                    <div class="col-12 col-sm-6 col-lg-4 project-card"  style="width: 18rem;">
+                        <div class="card">
+                            <img src="imgs/fBlogger.png" style="height: 15rem" class="card-img-top img-thumbnail" alt="fBlogger">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3>fBlogger</h3>
+                                    <a data-toggle="modal" data-target="#fBloggerInfo"><span class="btn fa fa-info-circle fa-2x" id="btnChange"></span></a>
+                                </div>
+                                <p class="card-text">A Fashion Blogging website where you can create and read blogs on the latest fashion trends.</p>
+                                <div id="links">
+                                    <a class="btn d" href="https://blooming-temple-90892.herokuapp.com/" target="_blank" data-toggle="tooltip" data-html="true" title="View Demo" data-placement="top"><span class="fa fa-location-arrow fa-2x fa-green"></span></a>
+                                    <a style="background-color: #c79f5f;" class="btn g" href="https://github.com/arkarn04/fBlogger" target="_blank"  data-toggle="tooltip" data-html="true" title="View Source" data-placement="top"><span class="fa fa-github fa-2x"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="col-12 col-sm-6 col-lg-4 project-card"  style="width: 18rem;">
+                        <div class="card">
+                            <img src="imgs/comeds.png" style="height: 15rem" class="card-img-top img-thumbnail" alt="CoMeds">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3>CoMeds</h3>
+                                    <a data-toggle="modal" data-target="#CoMedsInfo"><span class="btn fa fa-info-circle fa-2x" id="btnChange"></span></a>
+                                </div>
+                                <p class="card-text">CoMeds is an e-Commerce Website built to provide a common platform between the medicine, oxygen-cylinders and other medical equipments suppliers and the patients in need.</p>
+                                <div id="links">
+                                    <a class="btn d" href="#" target="_blank" data-toggle="tooltip" data-html="true" title="View Demo" data-placement="top"><span class="fa fa-location-arrow fa-2x fa-green"></span></a>
+                                    <a style="background-color: #c79f5f;" class="btn g" href="https://github.com/arkarn04/comeds-hf21" target="_blank"  data-toggle="tooltip" data-html="true" title="View Source" data-placement="top"><span class="fa fa-github fa-2x"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- Project 3 -->
+                    <div class="col-12 col-sm-6 col-lg-4 project-card" style="width: 18rem;">
+                        <div class="card">
+                            <img src="imgs/tapFun.png" style="height: 15rem" class="card-img-top img-thumbnail" alt="tapFun">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3>tapFun</h3>
+                                    <a data-toggle="modal" data-target="#tapFunInfo"><span class="btn fa fa-info-circle fa-2x" id="btnChange"></span></a>
+                                </div>
+                                <p class="card-text">A visual sound kit. The 26 melodic and
+                                    rhythmic sounds are triggered by pressing the A to Z
+                                    keys. It also has visual animations over the
+                                    background when played.</p>
+                                <div id="links">
+                                    <a class="btn d" href="https://arkarn04.github.io/tapFun/circles.html" target="_blank" data-toggle="tooltip" data-html="true" title="View Demo" data-placement="top"><span class="fa fa-location-arrow fa-2x fa-green"></span></a>
+                                    <a style="background-color: #c79f5f;" class="btn g" href="https://github.com/arkarn04/tapFun" target="_blank"  data-toggle="tooltip" data-html="true" title="View Source" data-placement="top"><span class="fa fa-github fa-2x"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <hr width="88%" align="left" style=" box-shadow: 0 0 10px 1px #6b82b0;">
+
+        <div class="container">
+            <div class="row" id="achievements">
+                <div class="col-10">
+                    <div class="card" id="cardA">
+                        <div class="card-body">
+                            <h4 class="card-title">Achievments</h4>
+                            <hr>
+                            <p class="card-text">
+                                <ul style="list-style-type:disc">
+                                    <li>Completed the Hacktober Fest - 2019, 2020
+                                        Challenge</li>
+                                    <li>Secured AIR 3282 in JEE(Advanced) 2019</li>
+                                    
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div id="verticalLineRight"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container" id="footer">
+                <div class="row">
+                    <div class="col-7 col-sm-5 offset-1">
+                        <h5>Address: </h5>
+                        <address>
+                            C/o: S.K. Sinha<br>
+                            Behind Gayatri Bhawan,Kadam Gali<br>
+                            Teen Pulwa,P.G. Line Road<br>
+                            Patna-800001<br>
+                            <span class="fa fa-phone fa-lg"></span> : <a href="tel:9304257915">9304257915</a><br>
+                            <span class="fa fa-envelope fa-lg"></span> : <a href="mailto:karnaryan253@gmail.com">karnaryan253@gmail.com</a>
+                        </address>
+                    </div>
+                    <div class="col-4 col-sm-2">
+                        <h4>Links</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#achievements">Achievments</a></li>
+                        </ul>
+                    </div>
+                    <div class="12 col-sm-4 align-self-center">
+                        <div class="text-center">
+                                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/aryan.karn.31521" target="_blank"><span class="fa fa-facebook"></span></a>
+                                <a class="btn btn-social-icon btn-linkedin" href="www.linkedin.com/in/arkarn04" target="_blank"><span class="fa fa-linkedin"></span></a>
+                                <a class="btn btn-social-icon btn-github" href="https://github.com/arkarn04" target="_blank"><span class="fa fa-github"></span></a>
+                                <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/arkarn04"><span class="fa fa-twitter" target="_blank"></span></a>
+                                <a class="btn btn-social-icon btn-google" href="mailto:karnaryan253@gmail.com" target="_blank"><span class="fa fa-envelope"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <p>&copy; Copyright 2020 Aryan Karn</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap\dist/js\bootstrap.min.js"></script>   
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script> 
+    </body>
+</html>
